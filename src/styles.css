@@ -1,1 +1,138 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0f1923; /* Fondo oscuro estilo Valorant */
+    color: #fff; /* Texto blanco */
+    font-family: 'Valorant', sans-serif; /* Usa una fuente futurista */
+}
+
+.table thead {
+    background-color: #ff4655; /* Rojo Valorant */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #ff4655; /* Bordes rojos */
+}
+
+.table tbody tr:hover {
+    background-color: #1a2737; /* Azul oscuro */
+}
+
+.btn-warning {
+    background-color: #00e0ff; /* Cian brillante */
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #00a2c7;
+}
+
+.btn-danger {
+    background-color: #ff4655; /* Rojo Valorant */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #d6323e;
+}
+
+
+/*Formulario*/
+/* Asegurar que el formulario esté centrado */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar toda la pantalla */
+}
+
+/* Estilos del formulario */
+.valorant-form {
+    background-color: #0f1923; /* Fondo oscuro estilo Valorant */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff4655; /* Borde rojo */
+    box-shadow: 0px 0px 15px rgba(255, 70, 85, 0.8);
+    width: 350px;
+    text-align: center;
+}
+
+.valorant-form p {
+    margin: 20px 0;
+    color: white;
+    font-weight: bold;
+}
+
+/* Inputs */
+.valorant-form input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff4655;
+    background-color: #1a2737; /* Azul oscuro */
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.valorant-form input:focus {
+    outline: none;
+    border-color: #00e0ff; /* Cian brillante */
+    box-shadow: 0px 0px 10px rgba(0, 224, 255, 0.8);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff4655 !important;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d6323e !important;
+    box-shadow: 0px 0px 10px rgba(255, 70, 85, 0.8);
+}
+
+.btn-success {
+    background-color: #00e0ff !important;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-success:hover {
+    background-color: #00a2c7 !important;
+    box-shadow: 0px 0px 10px rgba(0, 224, 255, 0.8);
+}
+
